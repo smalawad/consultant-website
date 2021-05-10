@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+
+.img-layer {
+    width: 60%;
+    height: 110%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-image: uri('Stock/Png_panel-Image.png');
+    background-size: cover;
+    z-index: 0;
+}
+
+.img-layer .home-content {
+    margin-top: 30%;
+    width: 60%;
+    margin-left: 20%;
+    color: #ffcc29;
+}
+
+.btn-dark {
+    color: #ffcc29;
+}
+
+.site-header {
+    position: relative;
+}
+.navbar {
+    position: absolute;
+    font-weight: bold;
+    top: 0%;
+    z-index: 2;
+}
+.nav-link {
+    color: #ffcc29 !important;
+}
+
+.content-2{
+    color: #151515;
+    background-color: #ffcc29;
+}
+
+.content-3 {
+    background-color: #2b4f60;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.custom-img {
+    /* border-radius: 100%; */
+}
+.content-3 .sec-img {
+    /* margin-left: 20%; */
+}
+
+.content-4 {
+    margin: 5%;
+}
+
+.content-5 {
+    background-color: #536162;
+}
+
+.footer {
+    margin: 8%;
+}
+
+.footer a {
+    color: #f5f7fa;
+    padding: 2%;
+}
+
+.social {
+    cursor: pointer;
+}
